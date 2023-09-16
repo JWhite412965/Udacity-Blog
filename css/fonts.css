@@ -1,4 +1,7 @@
-.heading {
+
+    /* highlight fonts */
+.heading {  
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -42,11 +45,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {
+a {  /* link color */
     color: rgb(4, 46, 125);
     font-size: large;
 }
 
-a:hover {
+a:hover { /* link color when hover */
     color: crimson;
 }

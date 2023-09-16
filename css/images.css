@@ -1,32 +1,38 @@
 .image {
+    /*css for image on index.html and hobby-care.html*/
     grid-area: img;
     border: 3px solid black;
     padding: 2px;
 }
 
 .image img {
+    /*css for image on index.html*/
     height: 100%;
     width: 100%;
 }
 
 .image1 {
+    /* css for image1 on about-history.html and image1 on location-temperment.html */
     grid-area: img1;
     border: 3px solid black;
     padding: 2px;
 }
 
 .image1 img {
+    /* css for image1 on about-history.html and image1 on location-temperment.html */
     height: 100%;
     width: 100%;
 }
 
 .image2 {
+    /* css for image2 on about-history.html and image2 on location-temperment.html */
     grid-area: img2;
     border: 3px solid black;
     padding: 2px;
 }
 
 .image2 img {
+    /* css for image2 on about-history.html and image2 on location-temperment.html */
     height: 100%;
     width: 100%;
 }

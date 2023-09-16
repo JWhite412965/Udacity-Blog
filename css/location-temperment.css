@@ -93,3 +93,23 @@
 
   }
 }
+
+@media(max-device-width:550px) {
+  .whole {
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vw 45vw 40vw 15vw 100vw 40vw 7vw 7vw 7vw;
+    grid-template-areas:
+      "head1"
+      "img1"
+      "cont1"
+      "head2"
+      "img2"
+      "cont2"
+      "home"
+      "pback"
+      "next";
+
+
+    font-size: 100%;
+  }
+}

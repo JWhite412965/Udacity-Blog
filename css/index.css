@@ -4,6 +4,8 @@
 
 .whole {
     display: grid;
+    width: 100%vw;
+    height: fit-content;
     grid-template-rows: 25vw 45vw 30vw 7vw 7vw;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
@@ -74,5 +76,31 @@
             "link3";
 
         font-size: 85%;
+
+    }
+
+    .external-links {
+        font-size: 45px;
+    }
+}
+
+@media(max-device-width:550px) {
+    .whole {
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vw 40vw 60vw 7vw 10vw 10vw 10vw;
+        grid-template-areas:
+            "head"
+            "img"
+            "cont"
+            "elink"
+            "link1"
+            "link2"
+            "link3";
+
+        font-size: 100%;
+    }
+
+    .external-links {
+        font-size: 45px;
     }
 }
