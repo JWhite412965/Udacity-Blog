@@ -1,8 +1,15 @@
+.whole {
+    background-color: rgb(164, 179, 224);
+}
 
-.whole{background-color: rgb(164, 179, 224);}
+.container {
+    background-color: rgba(255, 255, 255, 0.735);
+}
 
- .container{background-color: rgba(255, 255, 255, 0.735);}
+.container1 {
+    background-color: rgba(255, 255, 255, 0.735);
+}
 
- .container1{background-color: rgba(255, 255, 255, 0.735);}
-
- .container2{background-color: rgba(255, 255, 255, 0.735);}
+.container2 {
+    background-color: rgba(255, 255, 255, 0.735);
+}

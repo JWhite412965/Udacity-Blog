@@ -1,45 +1,78 @@
 @import url('./background-color.css');
- @import url('./images.css');
- @import url('./fonts.css'); 
+@import url('./images.css');
+@import url('./fonts.css');
 
-.whole{display:grid;
-    grid-template-rows:25vw 45vw 30vw 7vw 7vw;
-    grid-template-columns:repeat(3,1fr);
-    grid-template-areas: 
-    "head head head"
-    "img img img"
-    "cont cont cont"
-    "elink elink elink"
-    "link1 link2 link3";
-    grid-gap:7px;
-    
-    }
-    
+.whole {
+    display: grid;
+    grid-template-rows: 25vw 45vw 30vw 7vw 7vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "head head head"
+        "img img img"
+        "cont cont cont"
+        "elink elink elink"
+        "link1 link2 link3";
+    grid-gap: 7px;
 
-        .heading{text-align:center;font-weight:bold;grid-area:head;}
-
-        .container{display:flex;flex-direction:row;overflow:auto;border:3px solid black;grid-area:cont;}
-
-        .external-links{grid-area:elink;font-size:40px;text-align:center;color:darkcyan;}
+}
 
 
-.link1{border:2px solid rgb(0, 187, 255);padding:4px;grid-area:link1;text-align:center;}
-.link2{border:2px solid rgb(0, 187, 255);padding:4px;grid-area:link2;text-align:center;}
-.link3{border:2px solid rgb(0, 187, 255);padding:4px;grid-area:link3;text-align:center;}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    grid-area: head;
+}
 
-@media(max-width:550px){
-    .whole{
+.container {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    border: 3px solid black;
+    grid-area: cont;
+}
+
+.external-links {
+    grid-area: elink;
+    font-size: 40px;
+    text-align: center;
+    color: darkcyan;
+}
+
+
+.link1 {
+    border: 2px solid rgb(0, 187, 255);
+    padding: 4px;
+    grid-area: link1;
+    text-align: center;
+}
+
+.link2 {
+    border: 2px solid rgb(0, 187, 255);
+    padding: 4px;
+    grid-area: link2;
+    text-align: center;
+}
+
+.link3 {
+    border: 2px solid rgb(0, 187, 255);
+    padding: 4px;
+    grid-area: link3;
+    text-align: center;
+}
+
+@media(max-width:550px) {
+    .whole {
         grid-template-columns: 1fr;
         grid-template-rows: 30vw 40vw 60vw 7vw 10vw 10vw 10vw;
-        grid-template-areas: 
-        "head"
-        "img"
-        "cont"
-        "elink"
-        "link1"
-        "link2"
-        "link3";
-        
-        font-size:85%;
+        grid-template-areas:
+            "head"
+            "img"
+            "cont"
+            "elink"
+            "link1"
+            "link2"
+            "link3";
+
+        font-size: 85%;
     }
 }

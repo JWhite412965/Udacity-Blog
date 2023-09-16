@@ -1,8 +1,32 @@
-.image{grid-area:img;border:3px solid black;padding:2px;}
-.image img{height:100%;width:100%;}
+.image {
+    grid-area: img;
+    border: 3px solid black;
+    padding: 2px;
+}
 
-.image1{grid-area:img1;border:3px solid black;padding:2px;}
-.image1 img{height:100%;width:100%;}
+.image img {
+    height: 100%;
+    width: 100%;
+}
 
-.image2{grid-area:img2;border:3px solid black;padding:2px;}
-.image2 img{height:100%;width:100%;}
+.image1 {
+    grid-area: img1;
+    border: 3px solid black;
+    padding: 2px;
+}
+
+.image1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.image2 {
+    grid-area: img2;
+    border: 3px solid black;
+    padding: 2px;
+}
+
+.image2 img {
+    height: 100%;
+    width: 100%;
+}
