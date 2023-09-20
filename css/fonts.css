@@ -1,7 +1,10 @@
+/* highlight fonts */
+.heading {
 
-    /* highlight fonts */
-.heading {  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -11,10 +14,12 @@
 
 .link1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .link2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .link3 {
@@ -45,11 +50,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-a {  /* link color */
+a {
+    /* link color */
     color: rgb(4, 46, 125);
     font-size: large;
+
 }
 
-a:hover { /* link color when hover */
+a:hover {
+    /* link color when hover */
     color: crimson;
 }

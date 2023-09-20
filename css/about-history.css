@@ -6,7 +6,7 @@
     display: grid;
     height: fit-content;
     width: 100%vw;
-    grid-template-rows: 7vw 45vw 30vw 7vw;
+    grid-template-rows: 13vw 45vw 30vw 7vw;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
         "head1 head1 head1 head2 head2 head2"
@@ -18,6 +18,9 @@
 
 }
 
+header {
+    display: inline-block
+}
 
 .heading1 {
     grid-area: head1;
@@ -72,7 +75,7 @@
 @media(max-width:550px) {
     .whole {
         grid-template-columns: 1fr;
-        grid-template-rows: 15vw 65vw 40vw 15vw 100vw 40vw 7vw 7vw;
+        grid-template-rows: 15vw 65vw 40vw 15vw 100vw 40vw 9vw 9vw;
         grid-template-areas:
             "head1"
             "img1"
